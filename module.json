@@ -1,11 +1,14 @@
 {
   "id": "age-of-ashes",
   "title": "Age of Ashes",
-  "version": "1.0.0",
+  "version": "11.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
   },
+  "url": "https://github.com/BBurns42/aoa",
+  "manifest": "https://raw.githubusercontent.com/BBurns42/aoa/main/module.json",
+  "download": "https://github.com/BBurns42/aoa/archive/refs/tags/v11.0.0.zip",
   "packs": [
     {
       "name": "journals",
