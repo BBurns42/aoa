@@ -1,3 +1,47 @@
-2024/07/07-18:05:01.129911 7fdfb6ffd6c0 Recovering log #20
-2024/07/07-18:05:01.139550 7fdfb6ffd6c0 Delete type=0 #20
-2024/07/07-18:05:01.139578 7fdfb6ffd6c0 Delete type=3 #18
+2024/07/07-19:07:48.424989 7f668c9e16c0 Recovering log #27
+2024/07/07-19:07:48.434223 7f668c9e16c0 Delete type=3 #26
+2024/07/07-19:07:48.434256 7f668c9e16c0 Delete type=0 #25
+2024/07/07-19:07:48.434273 7f668c9e16c0 Delete type=0 #27
+2024/07/07-19:07:48.434287 7f668c9e16c0 Delete type=3 #24
+2024/07/07-19:13:54.650613 7f66650f56c0 Level-0 table #31: started
+2024/07/07-19:13:54.684317 7f66650f56c0 Level-0 table #31: 3458022 bytes OK
+2024/07/07-19:13:54.688565 7f66650f56c0 Delete type=0 #29
+2024/07/07-19:16:55.858092 7f66650f56c0 Level-0 table #33: started
+2024/07/07-19:16:55.878665 7f66650f56c0 Level-0 table #33: 2182789 bytes OK
+2024/07/07-19:16:55.882765 7f66650f56c0 Delete type=0 #30
+2024/07/07-19:47:39.706790 7f66650f56c0 Level-0 table #35: started
+2024/07/07-19:47:39.723525 7f66650f56c0 Level-0 table #35: 1471954 bytes OK
+2024/07/07-19:47:39.728084 7f66650f56c0 Delete type=0 #32
+2024/07/07-19:47:39.769817 7f66650f56c0 Manual compaction at level-0 from '!actors!0HlhNqtVNFLkvuDd' @ 72057594037927935 : 1 .. '!folders!qpnO395kdp3ijNA3' @ 0 : 0; will stop at '!folders!qpnO395kdp3ijNA3' @ 20054 : 1
+2024/07/07-19:47:39.769825 7f66650f56c0 Compacting 2@0 + 1@1 files
+2024/07/07-19:47:39.797481 7f66650f56c0 Generated table #36@0: 2546 keys, 2130229 bytes
+2024/07/07-19:47:39.824867 7f66650f56c0 Generated table #37@0: 3415 keys, 2133017 bytes
+2024/07/07-19:47:39.832866 7f66650f56c0 Generated table #38@0: 789 keys, 441731 bytes
+2024/07/07-19:47:39.832896 7f66650f56c0 Compacted 2@0 + 1@1 files => 4704977 bytes
+2024/07/07-19:47:39.836817 7f66650f56c0 compacted to: files[ 0 3 2 0 0 0 0 ]
+2024/07/07-19:47:39.836966 7f66650f56c0 Delete type=2 #33
+2024/07/07-19:47:39.837241 7f66650f56c0 Delete type=2 #31
+2024/07/07-19:47:39.837498 7f66650f56c0 Delete type=2 #35
+2024/07/07-19:47:39.901137 7f66650f56c0 Manual compaction at level-0 from '!folders!qpnO395kdp3ijNA3' @ 20054 : 1 .. '!folders!qpnO395kdp3ijNA3' @ 0 : 0; will stop at (end)
+2024/07/07-19:47:39.919621 7f66650f56c0 Manual compaction at level-1 from '!actors!0HlhNqtVNFLkvuDd' @ 72057594037927935 : 1 .. '!folders!qpnO395kdp3ijNA3' @ 0 : 0; will stop at '!actors.items!IXzEwnzfjsVR9yW0.K4gqGlmGETi7zB7J' @ 20016 : 1
+2024/07/07-19:47:39.919629 7f66650f56c0 Compacting 1@1 + 1@2 files
+2024/07/07-19:47:39.944492 7f66650f56c0 Generated table #39@1: 2463 keys, 2128875 bytes
+2024/07/07-19:47:39.954051 7f66650f56c0 Generated table #40@1: 974 keys, 601385 bytes
+2024/07/07-19:47:39.954084 7f66650f56c0 Compacted 1@1 + 1@2 files => 2730260 bytes
+2024/07/07-19:47:39.958324 7f66650f56c0 compacted to: files[ 0 2 3 0 0 0 0 ]
+2024/07/07-19:47:39.958447 7f66650f56c0 Delete type=2 #36
+2024/07/07-19:47:39.958746 7f66650f56c0 Delete type=2 #22
+2024/07/07-19:47:40.007569 7f66650f56c0 Expanding@1 1+3 (2133017+3906004 bytes) to 2+3 (2574748+3906004 bytes)
+2024/07/07-19:47:40.007601 7f66650f56c0 Manual compaction at level-1 from '!actors.items!IXzEwnzfjsVR9yW0.K4gqGlmGETi7zB7J' @ 20016 : 1 .. '!folders!qpnO395kdp3ijNA3' @ 0 : 0; will stop at '!folders!qpnO395kdp3ijNA3' @ 20065 : 1
+2024/07/07-19:47:40.007607 7f66650f56c0 Compacting 2@1 + 3@2 files
+2024/07/07-19:47:40.031493 7f66650f56c0 Generated table #41@1: 2463 keys, 2128513 bytes
+2024/07/07-19:47:40.055764 7f66650f56c0 Generated table #42@1: 3402 keys, 2133096 bytes
+2024/07/07-19:47:40.063577 7f66650f56c0 Generated table #43@1: 771 keys, 439120 bytes
+2024/07/07-19:47:40.063603 7f66650f56c0 Compacted 2@1 + 3@2 files => 4700729 bytes
+2024/07/07-19:47:40.067594 7f66650f56c0 compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/07/07-19:47:40.067674 7f66650f56c0 Delete type=2 #23
+2024/07/07-19:47:40.067989 7f66650f56c0 Delete type=2 #40
+2024/07/07-19:47:40.068132 7f66650f56c0 Delete type=2 #37
+2024/07/07-19:47:40.068397 7f66650f56c0 Delete type=2 #39
+2024/07/07-19:47:40.068674 7f66650f56c0 Delete type=2 #38
+2024/07/07-19:47:40.094693 7f66650f56c0 Manual compaction at level-1 from '!folders!qpnO395kdp3ijNA3' @ 20065 : 1 .. '!folders!qpnO395kdp3ijNA3' @ 0 : 0; will stop at (end)
